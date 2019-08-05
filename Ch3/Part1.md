@@ -83,6 +83,7 @@ time {
   esac                                                                      \
   && make install
 }
+```
 
 如果你运行了上述指令，那么直到 `make install` 命令为止，你都无需重复运行了。
 
