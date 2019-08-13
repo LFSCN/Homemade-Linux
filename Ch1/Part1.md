@@ -72,7 +72,7 @@ Linux 发行版指的就是通常所说的 “Linux 操作系统”，它一般�
 
 Linux From Scratch （简写 LFS）是由 Gerard Beekman 等人编写的一本书，目前主要由 Bruce Dubbs 维护。
 
-其实承接上文，我是想写 LFS 是其中比较特殊的发行版。相信这样认为的人不在少数，至少我之前有在 LFS 相关的文章中看到过，而且 distrowatch 其实也能找到 LFS https://distrowatch.com/table.php?distribution=lfs，这就说明这句话本身不存在什么问题。但转念一想，这样描述又确实有欠妥当，特别是当我有重新翻了翻 LFS 的官网 http://www.linuxfromscratch.org/ 之后，官网对于 LFS 的描述是：
+其实承接上文，我是想写 LFS 是其中比较特殊的发行版。相信这样认为的人不在少数，至少我之前有在 LFS 相关的文章中看到过，而且 distrowatch 其实也能找到 [LFS][https://distrowatch.com/table.php?distribution=lfs] ，这就说明这句话本身不存在什么问题。但转念一想，这样描述又确实有欠妥当，特别是当我有重新翻了翻 [LFS 的官网][http://www.linuxfromscratch.org] 之后，官网对于 LFS 的描述是：
 
 > Linux From Scratch (LFS) is a project that provides you with step-by-step instructions for building your own custom Linux system, entirely from source code.
 > Currently, the Linux From Scratch organization consists of the following subprojects:
@@ -146,43 +146,27 @@ LSB 有四个独立的标准：核心（Core）、桌面（Desktop）、运行�
 
 由 LFS 提供，用于满足 LSB 要求的软件包
 
-LSB 核心：Bash, Bc, Binutils, Coreutils, Diffutils, File, Findutils, Gawk, Grep, Gzip, M4, Man-DB, Ncurses, Procps, Psmisc, Sed, Shadow, Tar, Util-linux, Zlib
-
-LSB 桌面：无
-
-LSB 运行时语言：Perl
-
-LSB 成像：无
-
-LSB Gtk3 和 LSB 图形（试用）：无
-
-
+- LSB 核心：Bash, Bc, Binutils, Coreutils, Diffutils, File, Findutils, Gawk, Grep, Gzip, M4, Man-DB, Ncurses, Procps, Psmisc, Sed, Shadow, Tar, Util-linux, Zlib
+- LSB 桌面：无
+- LSB 运行时语言：Perl
+- LSB 成像：无
+- LSB Gtk3 和 LSB 图形（试用）：无
 
 由 BLFS 提供，用于满足 LSB 要求的软件包
 
-LSB 核心：At, Batch (At 的一部分), Cpio, Ed, Fcrontab, Initd-tools, Lsb_release, NSPR, NSS, PAM, Pax, Sendmail (或 Postfix 或 Exim), time
-
-LSB 桌面：Alsa, ATK, Cairo, Desktop-file-utils, Freetype, Fontconfig, Gdk-pixbuf, Glib2, GTK+2, Icon-naming-utils, Libjpeg-turbo, Libpng, Libtiff, Libxml2, MesaLib, Pango, Xdg-utils, Xorg
-
-LSB 运行时语言：Python, Libxml2, Libxslt
-
-LSB 成像：CUPS, Cups-filters, Ghostscript, SANE
-
-LSB Gtk3 和 LSB 图形（试用）：GTK+3
-
-
+- LSB 核心：At, Batch (At 的一部分), Cpio, Ed, Fcrontab, Initd-tools, Lsb_release, NSPR, NSS, PAM, Pax, Sendmail (或 Postfix 或 Exim), time
+- LSB 桌面：Alsa, ATK, Cairo, Desktop-file-utils, Freetype, Fontconfig, Gdk-pixbuf, Glib2, GTK+2, Icon-naming-utils, Libjpeg-turbo, Libpng, Libtiff, Libxml2, MesaLib, Pango, Xdg-utils, Xorg
+- LSB 运行时语言：Python, Libxml2, Libxslt
+- LSB 成像：CUPS, Cups-filters, Ghostscript, SANE
+- LSB Gtk3 和 LSB 图形（试用）：GTK+3
 
 LFS 和 BLFS 没有提供，用于满足 LSB 要求的软件包
 
-LSB 核心：无
-
-LSB 桌面：Qt4 （以及 Qt5 除外）
-
-LSB 运行时语言：无
-
-LSB 成像：无
-
-LSB Gtk3 和 LSB 图形（试行）：无
+- LSB 核心：无
+- LSB 桌面：Qt4 （以及 Qt5 除外）
+- LSB 运行时语言：无
+- LSB 成像：无
+- LSB Gtk3 和 LSB 图形（试行）：无
 
 #### 1.2.4 SysVinit 和 systemd 的区别
 
